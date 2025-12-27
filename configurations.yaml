@@ -1,0 +1,18 @@
+  mqtt:
+  light:
+    - name: "upperside_light"
+      unique_id: ""
+      schema: json
+
+      command_topic: "ir/color"
+      state_topic: "ir/color/state"
+      color_temp_kelvin: true
+      min_kelvin: 2000
+      max_kelvin: 6535
+      supported_color_modes:
+       - color_temp
+      device:
+        identifiers:
+          - 
+        name: "upperside_light"
+
