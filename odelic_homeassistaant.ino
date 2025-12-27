@@ -6,13 +6,13 @@
 #include <Preferences.h>
 
 /* ===== ユーザー設定 ===== */
-const char* ssid               = "Buffalo-G-C670";
-const char* password           = "wifispot10";
-const char* mqtt_server        = "192.168.11.56";
+const char* ssid               = "";
+const char* password           = "";
+const char* mqtt_server        = "";
 const char* mqtt_command_topic = "ir/color";
 const char* mqtt_state_topic   = "ir/color/state";
-const char* mqtt_user          = "nannkadayo";
-const char* mqtt_pass          = "kokodede";
+const char* mqtt_user          = "";
+const char* mqtt_pass          = "";
 
 /* ===== IR設定 ===== */
 #define IR_PIN 4
